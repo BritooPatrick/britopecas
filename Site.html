@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brito Peças - Peças para Carretas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: black;
+        }
+        header {
+            background: url('./brito-header.png') no-repeat center top;
+            background-size: contain;
+            height: 300px;
+            background-color: black;
+            background-position: center;
+        }
+        nav {
+            background-color: #007bff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .service {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 300px;
+        }
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    
+    <nav>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#vendas">Vendas</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contato">Fale Conosco</a>
+    </nav>
+    
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>A Brito Peças é referência na distribuição de peças para carretas, garantindo qualidade e os melhores preços do mercado.</p>
+    </section>
+    
+    <section id="vendas">
+        <h2>Vendas</h2>
+        <p>Confira nossas condições especiais para compra de peças em atacado e varejo.</p>
+    </section>
+    
+    <section id="catalogo">
+        <h2>Catálogo</h2>
+        <p>Acesse nosso catálogo completo de produtos para carretas e caminhões.</p>
+    </section>
+    
+    <section id="contato">
+        <h2>Fale Conosco</h2>
+        <p>Entre em contato e solicite um orçamento!</p>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Brito Peças. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
